@@ -1,0 +1,1 @@
+alert("WORLD'S GREATEST WEB PAGE");
