@@ -1,0 +1,15 @@
+ use school
+ switched to db school
+
+db.students.insert({firstName:'Donald',LastName:'Trump',Address:'123 N.Y. Ave. NY,NY',Grade:5})
+db.students.inser({firstName:'Jake',lastName:'Cake',Address:'234 Sams Place Lakewood,NJ',Grade:5 })
+db.students.insert({firstName:'Donald',lastName:'Duck',Address:'890 Walt Disney Lane Orlando,Florida',Grade:11})
+db.students.insert({firstName:'Jack',lastName:'Quack',address:'12 Nowhere Lane Oddplace,PA',Grade:2})
+db.students.insert({firstName:'Jim',lastName:'Trim',address:'4 Rider St. Brooklyn,NY',Grade:7 })
+db.students.find({firstName:'Donald'})
+db.students.find({firstName:'Donald',Grade:5})
+
+use store
+db.products.insert([{name:'voice recorder',price:79.99},{name:'camera',price:135}])
+db.products.find()
+db.products.remove({})
