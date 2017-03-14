@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Mr.Potato</title>
+        <style>
+            html,
+            body {
+                height: 100%;
+                width: 100%;
+            }
+            
+            .body {
+                position: absolute;
+                 height :100%;
+            }
+            
+            div#body div {
+                text-align: center;
+               
+            }
+            
+            .parts {
+                position: absolute;
+                display: block;
+            }
+            
+            audio {
+                float: right;
+            }
+            
+            
+        </style>
+    </head>
+
+    <body>
+        <audio src="yudiTeichman.mp3" loop autoplay controls></audio>
+
+        <div id="body">
+            <div><img src="body.png" class="body"></div>
+        </div>
+        <script src="/jquery-3.1.1.min.js"></script>
+        <script src="potatoHead.js"></script>
+
+    </body>
+
+</html>
