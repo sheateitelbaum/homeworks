@@ -1,4 +1,4 @@
-const express = require('express'),
+ const express = require('express'),  
     app = express();
 app.use(require('./hwFileServer'));
 app.use((req, res, next) => {
@@ -8,4 +8,4 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
     res.end('PCS is a great company<br/>');
 });
-app.listen(80);
+app.listen(80); 
