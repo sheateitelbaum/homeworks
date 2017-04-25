@@ -1,0 +1,20 @@
+/*app.get('/showComments', (req, res, next) => {
+    posts.find({ _id: new mongo.ObjectId(req.query.id) }, { comments: 1, _id: 0 }).toArray((err, post) => {
+        if (err) {
+            next(err);
+        }
+        res.render('posts', {
+            posts: post[0],
+            partials: {
+                content: 'comments'
+            }
+        },(err,html)=>{
+            res.render('layout', {
+            subtitle: 'Welcome to the blog',
+            html: html,
+            links: [{ url: '/newPost', text: 'new post' }, { url: 'https://www.google.com', text: 'google' }],
+            }
+        );
+    });
+});
+});*/
